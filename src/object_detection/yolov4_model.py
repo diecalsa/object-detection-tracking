@@ -1,9 +1,9 @@
-from .darknet_model import DarknetModel
-import cv2
 import numpy as np
 
-import typing
 from typing import Tuple
+
+from .darknet_model import DarknetModel
+
 
 bboxes = scores = categories = np.ndarray
 image_height = image_width = int
