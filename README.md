@@ -45,6 +45,32 @@ Finalmente, instala las dependencias:
 pip install -r requirements.txt
 ```
 
+**virtualenv**
+
+Para instalar virtualenv:
+
+```sh
+pip install virtualenv
+```
+
+Para crear un entorno virtual:
+
+```sh
+virtualenv tracking 
+```
+
+Activa el entorno virtual:
+
+```sh
+source tracking/bin/activate
+```
+
+Finalmente, instala las dependencias:
+
+```sh
+pip install -r requirements.txt
+```
+
 ## 3. Ejecuta la demo
 
 Una vez instaladas las dependencias en el entorno virtual, desde la carpeta de la demo ejecuta el comando:
